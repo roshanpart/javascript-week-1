@@ -28,11 +28,23 @@ names.shift();
 console.log(names); */
 
 
-const names = ["Amina", "Emil", "Zoey", "Ahmad"];
+/* const names = ["Amina", "Emil", "Zoey", "Ahmad"];
 const nameToRemove = "Zoey";
 const findIndex = names.indexOf(nameToRemove);
 
 if (nameToRemove !== -1) {
     names.splice(findIndex, 1)
 }
-console
+console.log(names);
+ */
+
+
+const array1 = [{}, {}]
+
+function markStudents(students) {
+    for (let i = 0; i < students.length; i++) {
+        students[i].isStudent = true;
+    }
+}
+markStudents(array1);
+console.log(array1);
